@@ -1,0 +1,72 @@
+main
+{ 
+  background-color: #ede972;
+  max-width: 75%;
+  max-height: 100%;
+  margin: auto;
+  padding: 30px 20px;
+}
+body{
+  background-color: #28b531;
+  
+}
+#survey-form{
+
+  text-align: center;
+}
+  #title {
+    font-size: 50px;
+  }
+#description {
+  font-size: 35px;
+}
+
+#name-label {
+  font-size: 25px;
+}
+#email-label{
+  font-size: 25px;
+}
+#number-label{
+  
+  font-size: 25px;
+}
+#radio{
+  font-size: 25px;
+}
+#dropdown-label{
+  font-size: 25px;
+  padding: 30px 0px 30px 0px
+}
+#textarea {
+  max-height: 50px
+    max-width;
+}
+#submit-button{
+  color: #ede972;
+}
+#special-needs {
+  padding: 30px 20px;
+}
+
+#allergies {
+   padding: 5px
+}
+#emotional-disability {
+  padding: 5px
+}
+#learning-disability{
+  padding: 5px
+}
+.radio {
+  font-size: 25px;
+}
+#special-needs {
+  font-size: 25px;
+}
+#more-info {
+  font-size: 25px;
+}
+#submit{
+  font-size: 25px;
+}

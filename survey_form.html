@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/style.css" rel="stylesheet">
+    <title>Survey-Form</title>
+  </head>
+
+<main>
+  <form id="survey-form">
+<h1 id="title">
+  ☸ Neverland Navigational Academy ☸</h1>
+<p id="description"> Eligibility Form </p>
+<div id="name-here">
+<input type= "text" id="name" placeholder="Name" required>
+  <label id="name-label">Name</label>
+
+    </div>
+    <div id="email-here">
+<input type= "email" id="email" placeholder="Email" required>
+      <label id="email-label">Email</label>
+    </div>
+  <div id="number-here">
+<input type="number" id="number" placeholder="Phone-Number" min="1001000000" max="99999999999" required style="width: 18%;">
+    <label id="number-label">Phone</label>
+</div>
+<div class="radio">
+<p> How often do you expect your child to attend?
+  </p>
+    <label for="5-days-a-week">
+      <input id="5-days-a-week" value="5-days-a-week" type="radio" name="days-a-week">
+     5 days a week</label>
+   <label for="3-4days-a-week">
+     <input id="3-4days-a-week" value="3-4days-a-week" type="radio" name="days-a-week">3-4 days a week</label>
+   <label for="1-2days-a-week">
+     <input id="1-2days-a-week" value="1-2days-a-week" type="radio" name="days-a-week">1-2 days a week</label>
+    </div>
+  <div id="dropdown-label">
+    <label> Select your childs age</label>
+    <select id="dropdown" required style="width: 15%;">
+   <option value = "1">1</option>
+   <option value = "2">2</option>
+   <option value = "3">3</option>
+   <option value = "4">4</option>
+   <option value = "5">5</option>
+    </select>
+  </div>
+  <div id="special-needs">
+    <label> Please let us know if your child has or requires any of the following.</label>
+  <div id="allergies"> <input type="checkbox" id="special1" name="special1" value="allergies">
+    <label for="special1"> I have allergies </label><br></div>
+   <div id="emotional-disability"> <input type="checkbox" id="special2" name="special2" value="emotional-disablity"                        <label for="special2">I have an emotional disability</label><br></div>
+  <div id="learning-disability">
+    <input type="checkbox" id="special3" name="special3" value="learning-disability">
+    <label for="special3"> I have a learning disability</label><br></div>
+    
+  </div>
+  <div id="more-info">
+  <div id="text-area-title">
+    <label>Please give a brief description of your child, their schedule at home, and anything special about them we should know</label>
+  </div>
+  <div id="text-area">
+    <textarea id="textarea"rows="4" cols="50"></textarea>
+      </div>
+    <div id="submit-button">
+    <button id="submit" type="submit">Submit</button>
+    </div>
+    </div>
+    </form>
+  </main>
+  </html>
